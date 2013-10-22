@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<TextView android:id="@+id/blank" android:layout_width="60dp"
+		android:layout_height="20dp" />
+	<ImageView android:id="@+id/logo" android:layout_width="150dp"
+		android:layout_height="55dp" android:src="@drawable/twitter"
+		android:layout_toRightOf="@id/blank" />
+	<EditText android:id="@+id/et_user_id" android:layout_below="@id/logo"
+		android:layout_alignRight="@+id/logo" android:layout_width="150dp"
+		android:layout_height="40dp" />
+	<EditText android:id="@+id/et_user_passwd"
+		android:layout_below="@id/et_user_id" android:layout_alignRight="@+id/logo"
+		android:layout_width="150dp" android:layout_height="40dp" />
+	<Button android:id="@+id/bt_login" android:layout_below="@id/et_user_passwd"
+		android:layout_alignRight="@id/et_user_passwd" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="로그인" />
+	<TextView android:id="@+id/tv_user_id" android:text="아이디"
+		android:textColor="#FFFFFF" android:layout_alignTop="@id/et_user_id"
+		android:layout_toLeftOf="@id/et_user_id" android:layout_width="70dp"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/tv_user_pw" android:text="패스워드"
+		android:textColor="#FFFFFF" android:layout_alignTop="@id/et_user_passwd"
+		android:layout_toLeftOf="@id/et_user_passwd" android:layout_width="70dp"
+		android:layout_height="wrap_content" />
+</RelativeLayout>

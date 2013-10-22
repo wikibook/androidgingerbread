@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+	<Button android:id="@+id/button" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="버튼을 누른 상태로 유지하면 컨텍스트메뉴가 나타납니다" />
+</LinearLayout>

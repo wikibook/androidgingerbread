@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<Button  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:text="FrameLayout은 한번에 하나의 하위 위젯만을 보여줍니다." 
+	    />
+	<Button  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:text="하지만, 겹침 구조로 되어 있기 때문에 이 버튼은 위의 버튼에 겹쳐진 채로 보일 것입니다." 
+	    />
+	<Button  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:text="아마도 이 버튼은 보이지 않을 것입니다."  
+	    />
+</FrameLayout>

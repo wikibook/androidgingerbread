@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, FirstActivity!</string>
+	<string name="app_name">Multiple Activity</string>
+	<string name="first_activity">첫 번째 액티비티 입니다</string>
+	<string name="second_activity">두 번째 액티비티 입니다</string>
+	<string name="third_activity">세 번째 액티비티입니다</string>
+	<string name="prev">이전</string>
+	<string name="next">다음</string>
+</resources>
